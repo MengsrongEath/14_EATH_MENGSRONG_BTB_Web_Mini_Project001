@@ -2,22 +2,10 @@
   "rewrites": [
     { "source": "/", "destination": "/src/index.html" },
     { "source": "/about", "destination": "/src/about.html" },
-    { "source": "/blog", "destination": "/src/blog.html" },
-    { "source": "/custom", "destination": "/src/custom.html" },
-    { "source": "/projects", "destination": "/src/index.html" }, 
-    { "source": "/contact", "destination": "/src/index.html" }
-  ]
-}
-
-{
-  "rewrites": [
-    { "source": "/", "destination": "/src/index.html" },
-    { "source": "/about", "destination": "/src/about.html" },
-    { "source": "/blog", "destination": "/src/blog.html" },
-    { "source": "/custom", "destination": "/src/custom.html" },
-    { "source": "/index.html", "destination": "/src/index.html" },
     { "source": "/about.html", "destination": "/src/about.html" },
+    { "source": "/blog", "destination": "/src/blog.html" },
     { "source": "/blog.html", "destination": "/src/blog.html" },
+    { "source": "/custom", "destination": "/src/custom.html" },
     { "source": "/custom.html", "destination": "/src/custom.html" },
     { "source": "/assets/:path*", "destination": "/src/assets/:path*" },
     { "source": "/css/:path*", "destination": "/src/css/:path*" }
